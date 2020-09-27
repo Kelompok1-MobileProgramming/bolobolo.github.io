@@ -5,8 +5,10 @@
     .backgron {background-color: white; width: 100%; height: auto; margin-top: 0%; padding-top: 0px;}
     .container {background-image: url("woodtexture1.jpg"); width: 100%; height: auto; margin: 0 auto; padding: 0px; padding-top: 0%;}
     
-    
+    .gambar {margin-left: 15px;}
+    .gambar1 {margin-left: 0px;}
     .gambar:hover {background-color: #ebf0f5; -webkit-transition: 1s;}
+    .gambar1:hover {background-color: #ebf0f5; -webkit-transition: 1s;}
 
     .baju {background-color: #5fb0f1; -webkit-transition: 1s;}
     .baju:hover {background-color: #74cff3;}
@@ -133,7 +135,43 @@ footer ul{
 }
 
 footer li{
-  display:;
   list-style-type: none;
-  color: rgb(243, 147, 23);
+  color: rgb(155, 75, 10);
+}
+
+footer li:hover{
+  color:  rgb(109, 53, 8);
+}
+
+#searchbar{ 
+  background-color:  rgb(255, 255, 181);
+  padding:15px; 
+  border-radius: 5px; 
+  float: right;
+  border-style: hidden;
+} 
+
+input[type=text] { 
+   width: 30%; 
+   -webkit-transition: width 0.15s ease-in-out; 
+   transition: width 0.15s ease-in-out; 
+} 
+
+/* When the input field gets focus, 
+     change its width to 100% */
+input[type=text]:focus { 
+  width: 70%; 
+} 
+
+#list{ 
+ font-size:  1.5em; 
+ margin-left: 90px; 
+} 
+
+.items{ 
+display: list-item;     
+}  
+
+#li{
+  list-style-type: none;
 }
